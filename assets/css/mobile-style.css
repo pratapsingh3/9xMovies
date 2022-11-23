@@ -1,0 +1,185 @@
+@media only screen and (max-width:1024px){
+	
+	.navicon {
+		margin-top: -120px;
+	}
+
+	.movie {
+		width: 100%
+	}
+	
+	.movie-box {
+		margin-left: 114px;
+	}
+	
+	.mainfooter {
+		text-align:center
+	}
+	
+	.alpha {
+		width: 100%;
+		margin: auto;
+	}
+	
+	.wmobile {
+		width: 1000px;
+		text-align: left;
+		padding-left: 20px; 
+	}
+	
+	.mobile-100 {
+		width: 100%;
+		margin: auto;
+	}
+	
+	.alphabets {
+		padding-left: 28px;
+	}
+	
+
+}
+
+@media only screen and (max-width:991px){
+	
+	.search-icon {
+	padding-top: 90px;
+	margin-left: -15px;
+	padding-bottom: 250px;
+	}
+	
+	.head-button:hover {
+		height:50px;
+	}
+	
+	.alphabets {
+		padding-left: 15px;
+	}
+	
+}
+
+@media only screen and (max-width:768px){
+	
+	.navicon {
+		margin-top: -100px;
+	}
+	
+	.movie-box {
+		width: 95%;
+		margin-left: 0px;
+	}
+	
+	.movie {
+		width: 100%;
+	}
+	
+	.logo {
+		margin-right: 215px;
+	}
+	
+	.alphabets {
+		padding-left: 28px;
+	}
+	
+	.categories {
+		padding-left: 30px;
+	}
+	
+	.year {
+		padding-left: 30px;
+	}
+
+}
+
+@media only screen and (max-width:579px){
+	
+	.movie-box {
+		padding-right: 10px;
+		padding-right: 10px;
+		width: 95%;
+	}
+	
+	.alphabets {
+		padding-left: 28px;
+	}
+	
+}
+
+@media only screen and (max-width:414px){
+	
+	.year {
+		padding-left: 20px;
+	}
+	
+}
+
+@media only screen and (max-width:411px){
+	
+	.alphabets {
+		padding-left: 20px;
+	}
+	
+	.categories {
+		padding-left: 20px;
+	}
+	
+	.year {
+		padding-left: 20px;
+	}
+	
+}
+
+@media only screen and (max-width:375px){
+	
+	.alphabets {
+		padding-left: 1px;
+	}
+	
+	.categories {
+		padding-left: 0px;
+	}
+	
+	.year {
+		padding-left: 0px;
+	}
+	
+}
+
+@media only screen and (max-width:360px){
+	
+	.alphabets {
+		padding-left: 40px;
+	}
+	
+	.categories {
+		padding-left: 0px;
+	}
+	
+	.year {
+		padding-left: 0px;
+	}
+	
+}
+
+@media only screen and (max-width:320px){
+	
+	.movie {
+		width: 100%;
+	}
+	
+	.alphabets {
+		padding-left: 20px;
+	}
+	
+	.categories {
+		padding-left: 50px;
+	}
+	
+	.year {
+		padding-left: 50px;
+	}
+	
+	header {
+		margin-bottom: 60px;
+	}
+	
+}

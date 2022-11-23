@@ -1,0 +1,330 @@
+*{
+	box-sizing: border-box;
+}
+
+header{
+	margin-bottom: 65px;
+}
+
+/* Slider */
+.wrapper {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+
+.divblock div {
+	text-align: center;
+	margin: auto;
+}
+
+.owl-dots {
+	display: none
+}
+
+.search-box {
+	position: absolute;
+	top: 50%;
+	transform: translate(0%,-50%);
+	background-color: #fff;
+	height: 40px;
+	border-radius: 40px;
+	padding: 0px;
+}
+
+.search-box:hover > .search-txt {
+	width: 200px;
+	padding: 0 6px;
+}
+
+.search-box:hover > .search-btn {
+	background-color: #fff;
+	color: #f57f26;
+}
+
+.search-btn {
+	float: left;
+	width: 40px;
+	height: 40px;
+	padding: 10px;
+	border-radius: 50%;
+	background-color: #f57f26;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-item: center;	
+}
+
+.search-txt{
+	border: none;
+	background: none;
+	outline: none;
+	float: left;
+	padding: 0;
+	font-size: 16px;
+	transition: 0.4s;
+	line-height: 40px;
+	width: 0px;
+}
+
+/* Movie Link */
+
+.movie-box {
+	padding-left: 28px;
+}
+
+/* Recent Post */
+
+.container1 {
+	position: relative;
+	display: inline-block;
+}
+
+.image{
+	display: block;
+}
+
+.overlay {
+	position: absolute;
+	transition: all .3s ease;
+	opacity: 0;
+	background-color: #000;
+}
+
+.container1:hover .overlay {
+	width: 100%;
+	opacity: 1;
+}
+
+.text {
+	color: #fff;
+	position: absolute;
+	top: 40%;
+	left: 22%;
+	transform: translate(-50%,-50%;);
+}
+
+.overlayleft{
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background-color: #f57f26;
+}
+
+.container1:hover .overlayleft {
+	width: 100%
+}
+
+.inline li {
+	display: inline;
+}
+
+.movie-banner {
+	background-image: url('../img/pic.jpg');
+	background-size: 100%;
+	width: 45%;
+	height: 225px;
+}
+
+.green-bg {
+	background-color: #0f9d58;
+	border: #0f9d58;
+}
+
+.orange-bg {
+	background-color: #f57f26;
+	border: #f57f26;	
+}
+
+.white-graybg {
+	background-color: #eee;
+	border: #eee;
+}
+
+.black-bg {
+	background-color: #333;
+}
+
+.white-bg {
+	background-color: #fff;
+}
+
+.blue-bg {
+	background-color: #085990;
+}
+
+.red-bor {
+	border: solid 3px #ff0c12;
+}
+
+.text-black {
+	color: #333;
+}
+
+.text-red {
+	color: #ff0c12;
+}
+
+.text-gray {
+	color: #555;
+}
+
+.text-green {
+	color:#0f9d58;
+}
+
+.text-gold {
+	color: #ffe315;
+}
+
+.text-green {
+	color: #159d57;
+}
+
+.text-blue a{
+	color: #337ab7;
+}
+
+.text-blue {
+	color: #337ab7;
+}
+
+.text-white1 a{
+	color: #fff;
+}
+
+.f-30 {
+	font-size: 30px;
+}
+.f-12 {
+	font-size: 12px;
+}
+
+.w-10 {
+	height: 30px;
+}
+
+.w-33 {
+	width: 105px;
+	border: solid 1px #fff;
+}
+
+.w-55 {
+	width: 150px;
+	border: solid 1px #fff;
+}
+.texthover:hover {
+	background-color: #333;
+}
+
+.imagehover:hover {
+	background-color: #f57f26;
+}
+
+.anchorhover:hover a {
+	color: #f57f26
+}
+
+.grayhover:hover {
+	background-color: #ddd;
+	color: #333;
+}
+
+.w-15 div {
+	width: 15%;
+}
+
+..w-95{
+	width: 95%;
+}
+
+/* Image Hover */
+
+.image-ho{
+	display: flex;
+	align-item: center;
+	justify-content: center;
+	background: #ddd;
+	width: 100%;
+	height: 400px;
+}
+
+.team-area {
+	display: flex;
+	width: 90%;
+	justify-content: space-around;
+}
+
+.single-team {
+	width: 150px;
+	height: 200px;
+	padding: 24px;
+	background: #fff;
+	position: relative;
+	display: flex;
+	align-item:flex-end;
+	transition: .6s ease-out;
+	box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+}
+
+.single-team:hover {
+	transform: translateY(15px);
+}
+
+.single-team:hover:before{
+	opacity: 1;
+}
+
+.single-team:hover .team-text {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+.single-team:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	background: linear-gradient(to top, #000, transparent);
+	z-index: 2;
+	transition: 0.5s;
+	opacity: 0;
+}
+.single-team img {
+	width:100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	object-fit: cover;
+}
+
+.single-team .team-text {
+	position: relative;
+	z-index: 3;
+	color: 0;
+	transform: translateY(60px);
+	transition: 0.5s;
+}
+
+.team-text h2 {
+	margin: 0;
+	letter-spacing: 3px;
+	color: #fff;
+}
+
+.team-text p {
+	letter-spacing: 1px;
+	font-size: 15px;
+	margin-top: 8px;
+	
+}
+
+.team-text a {
+	text-decoration: none;
+	color: #fff;
+}
+
